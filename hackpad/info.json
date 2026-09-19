@@ -1,1 +1,25 @@
-
+{
+    "keyboard_name": "Hackpad",
+    "manufacturer": "Custom",
+    "url": "",
+    "maintainer": "User",
+    "usb": {
+        "vid": "0x1234",
+        "pid": "0x5678",
+        "device_ver": "0x0001"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "layout_aliases": {
+        "LAYOUT": "LAYOUT_ortho_3x3"
+    },
+    "layouts": {
+        "LAYOUT_ortho_3x3": {
+            "layout": [
+                {"label":"SW1", "x":0, "y":0}, {"label":"SW2", "x":1, "y":0}, {"label":"SW3", "x":2, "y":0},
+                {"label":"SW4", "x":0, "y":1}, {"label":"SW5", "x":1, "y":1}, {"label":"SW6", "x":2, "y":1},
+                {"label":"SW7", "x":0, "y":2}, {"label":"SW8", "x":1, "y":2}, {"label":"SW9", "x":2, "y":2}
+            ]
+        }
+    }
+}
